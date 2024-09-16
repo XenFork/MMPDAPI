@@ -1,8 +1,3 @@
-dependencies {
-    compileOnly(project(":construct"))
-    annotationProcessor(project(":construct-processor"))
-}
-
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
     targetCompatibility = JavaVersion.VERSION_1_8

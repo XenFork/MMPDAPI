@@ -1,5 +1,5 @@
 # MMPDAPI
-Muti-Mod-Plugin-Development-Api
+Multi-Mod-Plugin-Development-Api
 
 多版本模组插件通用开发api，告别抑郁做回自己
 
