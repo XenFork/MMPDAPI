@@ -17,4 +17,6 @@ public @interface ModSet {
     String version();
     Contact contact() default @Contact;
     String[] license() default {};
+    String icon() default "assets/${modid}/icon.png";
+    Environments environment() default Environments.all;
 }

@@ -2,7 +2,6 @@ package io.github.xenfork.mmpd.api;
 
 import io.github.xenfork.construct.annotation.Author;
 import io.github.xenfork.construct.annotation.Contact;
-import io.github.xenfork.construct.annotation.Init;
 import io.github.xenfork.construct.annotation.ModSet;
 
 
@@ -31,7 +30,6 @@ import io.github.xenfork.construct.annotation.ModSet;
 )
 public class Main {
 
-    @Init()
     public static void init() {}
 
 }

@@ -56,7 +56,9 @@ public class ModSetProcessor extends AbstractProcessor {
                                     .putOnce("version", modSet.version())
                                     .putOnce("description", modSet.description())
                                     .putOnce("authors", authorSet(modSet.authors()))
-                                    .putOnce("license", licenseSet(modSet.license()));
+                                    .putOnce("license", licenseSet(modSet.license()))
+                                    .putOnce("icon", modSet.icon().replace("${modid}", modSet.modid()))
+                                    .putOnce("environment", modSet.environment().getName());
                     contactPut(modSet.contact(), fabricModJson);
                     notnullPutOnce( fabricModJson, "name", modSet.modName());
 
