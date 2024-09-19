@@ -1,13 +1,11 @@
 package io.github.xenfork.mmpd.api;
 
-import io.github.xenfork.construct.annotation.Author;
-import io.github.xenfork.construct.annotation.Contact;
-import io.github.xenfork.construct.annotation.ModSet;
-
+import io.github.xenfork.construct.annotation.*;
+import io.github.xenfork.construct.annotation.enums.Points;
 
 
 @ModSet(
-        modid = "mmpdapi",
+        modid = Main.MODID,
         modName = "Multi-Mod Plugin Development Api",
         description = "This is Multi Mod Plugin Development Api",
         group = "io.github.xenfork.mmpd.api",
@@ -29,7 +27,8 @@ import io.github.xenfork.construct.annotation.ModSet;
 
 )
 public class Main {
-
+    public static final String MODID = "mmdpapi";
+    @EntryPoints(Points.main)
     public static void init() {}
 
 }

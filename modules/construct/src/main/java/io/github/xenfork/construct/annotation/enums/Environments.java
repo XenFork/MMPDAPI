@@ -1,4 +1,4 @@
-package io.github.xenfork.construct.annotation;
+package io.github.xenfork.construct.annotation.enums;
 
 public enum Environments {
     all("*"), client, server;

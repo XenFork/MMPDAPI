@@ -6,9 +6,12 @@ dependencies {
     compileOnly("com.google.auto.service:auto-service:1.1.1")
     annotationProcessor("com.google.auto.service:auto-service:1.1.1")
     implementation("com.squareup:javapoet:1.13.0")
-    implementation("cn.hutool:hutool-json:5.8.31")
+    implementation("cn.hutool:hutool-json:5.8.32")
     implementation(project(":construct"))
+    implementation("org.spongepowered:mixin:0.8.5")
 }
+
+
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
